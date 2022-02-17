@@ -9,13 +9,13 @@ export const b2cPolicies = {
     authorities: {
         signUpSignIn: {
             //if you have a custom domain : https://your-domain-name/your-tenant-name.onmicrosoft.com/b2c_1_susi
-            authority: "https://reneorganisation.b2clogin.com/reneorganisation.onmicrosoft.com/b2c_1_susi",
+            authority: "https://<your domain name>/<your-tenant-name>n.onmicrosoft.com/b2c_1_susi",
         },
         editProfile: {
              //if you have a custom domain : https://your-domain-name/your-tenant-name.onmicrosoft.com/B2C_1_edit_profile
-            authority: "https://reneorganisation.b2clogin.com/reneorganisation.onmicrosoft.com/B2C_1_edit_profile"
+            authority: "https://<your domain name>/<your-tenant-name>.onmicrosoft.com/B2C_1_edit_profile"
         }
     },
     //if you have a custom domain : https://your-domain-name
-    authorityDomain: "https://reneorganisation.b2clogin.com"
+    authorityDomain: "https://<your domain name>"
 }
