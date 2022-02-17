@@ -3,8 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  clientId :"1245a1b0-ddae-4599-b27b-1c409b24b2e7",
+ 
+  webApi: "http://localhost:5000/hello",
 };
+
+
 
 /*
  * For easier debugging in development mode, you can import the following file

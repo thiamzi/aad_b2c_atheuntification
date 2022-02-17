@@ -1,0 +1,19 @@
+<div *ngIf="!loginDisplay">
+    <p>Please sign-in to see your profile information.</p>
+</div>
+
+<div *ngIf="loginDisplay">
+    <p>Login successful!</p>
+    <p>Request your profile information by clicking Profile above.</p>
+</div>
+
+<div style="margin-top: 10%; text-align: center;">
+    <button style="background-color: blue; color: white;" mat-raised-button *ngIf="loginDisplay" (click)="Callapi()">Call api with method</button>
+</div>
+
+<div style="margin-top: 2%; text-align: center;">
+    <button style="background-color: blue; color: white;" mat-raised-button *ngIf="loginDisplay" (click)="Callapi()">Call api with msal interceptor </button>
+</div>
+<div *ngIf="check" style="margin-top: 5%; text-align: center;"> Calling api .. <span *ngIf="show">{{ welcome }}</span></div>
+
+
