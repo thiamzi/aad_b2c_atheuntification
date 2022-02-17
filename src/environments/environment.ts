@@ -4,9 +4,9 @@
 
 export const environment = {
   production: false,
-  clientId :"1245a1b0-ddae-4599-b27b-1c409b24b2e7",
+  clientId :<your client Id>,
  
-  webApi: "http://localhost:5000/hello",
+  webApi: <your api url>,
 };
 
 
